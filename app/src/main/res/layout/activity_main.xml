@@ -10,24 +10,6 @@
     android:paddingTop="16dp"
     tools:context = ".MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:id="@+id/imageView1" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:id="@+id/imageView2" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:id="@+id/imageView3" />
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,9 +21,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
         android:text="こんにちは"
-        android:textSize="18sp" />
+        android:textSize="24sp" />
 
 </RelativeLayout>
