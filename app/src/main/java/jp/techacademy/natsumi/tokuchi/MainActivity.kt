@@ -23,10 +23,13 @@ class MainActivity : AppCompatActivity() {
             TimePickerDialog.OnTimeSetListener { view, hour,minute ->
                if (hour in 2..9) {
                    textView.text = "おはよう"
+                   imageView1.setImageResource(R.drawable.ohayou)
                } else if (hour in 10..17) {
                    textView.text = "こんにちは"
+                   imageView2.setImageResource(R.drawable.konnichiha)
                } else {
                    textView.text = "こんばんは"
+                   imageView3.setImageResource(R.drawable.konbanha)
                }
             },
             13, 0, true)
